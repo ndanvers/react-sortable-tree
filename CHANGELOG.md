@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.8.1](https://github.com/frontend-collective/react-sortable-tree/compare/v2.8.0...v2.8.1) (2020-10-12)
+
+
+### Bug Fixes
+
+* "Uncaught Invariant Violation: Expected to find a valid target." after cancelling a drag into the react sortable tree ([9a84113](https://github.com/frontend-collective/react-sortable-tree/commit/9a841136403b219e79c03528f2d70945fca3c44d))
+* add correct headers to issue templates ([3c29cbf](https://github.com/frontend-collective/react-sortable-tree/commit/3c29cbff3edab714d62de577eb1b51f642bc94ec))
+
 ## [2.8.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.7.1...v2.8.0) (2020-08-10)
 
 
