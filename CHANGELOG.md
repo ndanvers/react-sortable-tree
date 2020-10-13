@@ -1,9 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### repo fix bug (2020.10.13)
+
+Fix error: ["Uncaught Invariant Violation: Expected to find a valid target." after cancelling a drag into the react sortable tree](https://github.com/frontend-collective/react-sortable-tree/issues/490)
 
 ### [2.8.1](https://github.com/frontend-collective/react-sortable-tree/compare/v2.8.0...v2.8.1) (2020-10-12)
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.8.1](https://github.com/frontend-collective/react-sortable-tree/compare/v2.8.0...v2.8.1) (2020-10-12)
 
 ### Bug Fixes
 
@@ -12,12 +17,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [2.8.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.7.1...v2.8.0) (2020-08-10)
 
-
 ### Features
 
 * adding FUNDING.yml ([8e87804](https://github.com/frontend-collective/react-sortable-tree/commit/8e87804195fcc6cfc98ac0c8ae3a6f8511c05898))
 * remove current codesandbox website ([30749c7](https://github.com/frontend-collective/react-sortable-tree/commit/30749c74deba9b254c674bc0ded4fe2e6eb4cdce))
-
 
 ### Bug Fixes
 
@@ -32,64 +35,53 @@ All notable changes to this project will be documented in this file. See [standa
 * website pt 2 ([6914959](https://github.com/frontend-collective/react-sortable-tree/commit/69149596c884cb28c83c17f238c7d7d186271c44))
 
 <a name="2.7.1"></a>
+
 ## [2.7.1](https://github.com/frontend-collective/react-sortable-tree/compare/v2.7.0...v2.7.1) (2019-11-12)
 
-
-
 <a name="2.7.0"></a>
-# [2.7.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.6.2...v2.7.0) (2019-10-14)
 
+# [2.7.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.6.2...v2.7.0) (2019-10-14)
 
 ### Features
 
 * update react-dnd ([#531](https://github.com/frontend-collective/react-sortable-tree/issues/531)) ([c449524](https://github.com/frontend-collective/react-sortable-tree/commit/c449524))
 
-
-
 <a name="2.6.2"></a>
-## [2.6.2](https://github.com/frontend-collective/react-sortable-tree/compare/v2.6.1...v2.6.2) (2019-03-21)
 
+## [2.6.2](https://github.com/frontend-collective/react-sortable-tree/compare/v2.6.1...v2.6.2) (2019-03-21)
 
 ### Bug Fixes
 
 * Using DragDropContextConsumer directly ([#466](https://github.com/frontend-collective/react-sortable-tree/issues/466)) ([7bc9995](https://github.com/frontend-collective/react-sortable-tree/commit/7bc9995))
 
-
-
 <a name="2.6.1"></a>
+
 ## [2.6.1](https://github.com/frontend-collective/react-sortable-tree/compare/v2.6.0...v2.6.1) (2019-03-19)
 
-
-
 <a name="2.6.0"></a>
-# [2.6.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.5.0...v2.6.0) (2018-12-11)
 
+# [2.6.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.5.0...v2.6.0) (2018-12-11)
 
 ### Bug Fixes
 
 * Bundling patched version of react-dnd-scrollzone ([#432](https://github.com/frontend-collective/react-sortable-tree/issues/432)) ([4017a08](https://github.com/frontend-collective/react-sortable-tree/commit/4017a08))
 
-
-
 <a name="2.5.0"></a>
-# [2.5.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.4.0...v2.5.0) (2018-12-10)
 
+# [2.5.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.4.0...v2.5.0) (2018-12-10)
 
 ### Bug Fixes
 
 * postinstall -> prepare ([#430](https://github.com/frontend-collective/react-sortable-tree/issues/430)) ([5f94ace](https://github.com/frontend-collective/react-sortable-tree/commit/5f94ace))
 * rollup external dependencies ([7b8afd4](https://github.com/frontend-collective/react-sortable-tree/commit/7b8afd4))
 
-
-
 <a name="2.4.0"></a>
+
 # [2.4.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.3.0...v2.4.0) (2018-12-10)
 
-
-
 <a name="2.3.0"></a>
-# [2.3.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.2.0...v2.3.0) (2018-10-23)
 
+# [2.3.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.2.0...v2.3.0) (2018-10-23)
 
 ### Bug Fixes
 
@@ -99,22 +91,18 @@ All notable changes to this project will be documented in this file. See [standa
 * update props link + added PRs welcome badge ([c83c2aa](https://github.com/frontend-collective/react-sortable-tree/commit/c83c2aa))
 * update screenshot tests ([4977cb1](https://github.com/frontend-collective/react-sortable-tree/commit/4977cb1))
 
-
 ### Features
 
 * add storybook for onlyExpandSearchedNode prop ([#354](https://github.com/frontend-collective/react-sortable-tree/issues/354)) ([c4a41d1](https://github.com/frontend-collective/react-sortable-tree/commit/c4a41d1))
 
-
-
 <a name="2.2.0"></a>
-# [2.2.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.1.2...v2.2.0) (2018-06-12)
 
+# [2.2.0](https://github.com/frontend-collective/react-sortable-tree/compare/v2.1.2...v2.2.0) (2018-06-12)
 
 ### Bug Fixes
 
 * correct link to react-virtualized props ([#349](https://github.com/frontend-collective/react-sortable-tree/issues/349)) ([46961ed](https://github.com/frontend-collective/react-sortable-tree/commit/46961ed))
 * remove the extra s on style.css ([#342](https://github.com/frontend-collective/react-sortable-tree/issues/342)) ([77451bc](https://github.com/frontend-collective/react-sortable-tree/commit/77451bc))
-
 
 ### Features
 
@@ -123,17 +111,13 @@ All notable changes to this project will be documented in this file. See [standa
 * Only serve cjs and esm builds  ([#351](https://github.com/frontend-collective/react-sortable-tree/issues/351)) ([2c01832](https://github.com/frontend-collective/react-sortable-tree/commit/2c01832))
 * row direction support ([#337](https://github.com/frontend-collective/react-sortable-tree/issues/337)) ([5bef44b](https://github.com/frontend-collective/react-sortable-tree/commit/5bef44b))
 
-
-
 <a name="2.1.2"></a>
-## [2.1.2](https://github.com/frontend-collective/react-sortable-tree/compare/v2.1.1...v2.1.2) (2018-05-23)
 
+## [2.1.2](https://github.com/frontend-collective/react-sortable-tree/compare/v2.1.1...v2.1.2) (2018-05-23)
 
 ### Bug Fixes
 
 * prettier ([#313](https://github.com/frontend-collective/react-sortable-tree/issues/313)) ([3456076](https://github.com/frontend-collective/react-sortable-tree/commit/3456076))
-
-
 
 <a name="2.1.1"></a>
 
@@ -218,7 +202,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* UglifyJS enabled to remove dead code, which had been causing issues with some builds. If the presence of UglifyJS causes issues in your production builds, please refer to https://github.com/frontend-collective/react-sortable-tree#if-it-throws-typeerror-fn-is-not-a-function-errors-in-production
+* UglifyJS enabled to remove dead code, which had been causing issues with some builds. If the presence of UglifyJS causes issues in your production builds, please refer to <https://github.com/frontend-collective/react-sortable-tree#if-it-throws-typeerror-fn-is-not-a-function-errors-in-production>
 
 <a name="1.5.3"></a>
 

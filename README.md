@@ -12,6 +12,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/frontend-collective/react-sortable-tree/badge.svg?branch=master)](https://coveralls.io/github/frontend-collective/react-sortable-tree?branch=master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+## Major: This repo are forked from main repo [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) to fixed error: "Uncaught Invariant Violation: Expected to find a valid target."
+
 > A React component for Drag-and-drop sortable representation of hierarchical data. Checkout the [Storybook](https://frontend-collective.github.io/react-sortable-tree/) for a demonstration of some basic and advanced features.
 
 <div align="center">
@@ -182,11 +184,11 @@ Using the `theme` prop along with an imported theme module, you can easily overr
 
 This issue may be related to an ongoing incompatibility between UglifyJS and Webpack's behavior. See an explanation at [create-react-app#2376](https://github.com/facebookincubator/create-react-app/issues/2376).
 
-The simplest way to mitigate this issue is by adding `comparisons: false` to your Uglify config as seen here: https://github.com/facebookincubator/create-react-app/pull/2379/files
+The simplest way to mitigate this issue is by adding `comparisons: false` to your Uglify config as seen here: <https://github.com/facebookincubator/create-react-app/pull/2379/files>
 
 ### If it doesn't work with other components that use react-dnd
 
-react-dnd only allows for one DragDropContext at a time (see: https://github.com/gaearon/react-dnd/issues/186). To get around this, you can import the context-less tree component via `SortableTreeWithoutDndContext`.
+react-dnd only allows for one DragDropContext at a time (see: <https://github.com/gaearon/react-dnd/issues/186>). To get around this, you can import the context-less tree component via `SortableTreeWithoutDndContext`.
 
 ```js
 // before
